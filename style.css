@@ -15,9 +15,94 @@ body {
     /* font-size: 1.6rem; */
     background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%) no-repeat;
     color: #F9F9F9;
-    min-height: 110vh;
+    height: 100vh;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.icones img{
+    margin-left: 15px;
 }
 
 .foto-kaonashi img {
     max-width: 100%;
+    height: 320px;
+    margin-left: 30px;
+    display: none;
 }
+
+.kaonashi-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.kaonashi-mobile img {
+    max-width: 300px;
+    max-height: 221px;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 109%;
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    margin-bottom: 58px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.assistir-agora {
+    width: 225px;
+    height: 45px;
+    background-color: #658E76;
+    color: #F9F9F9;
+    border-radius: 50px 15px;
+    padding: 0.6rem;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: skew(-20deg);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.assista-o-trailer {
+    display: none;
+}
+
+
