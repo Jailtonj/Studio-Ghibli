@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto de um Blog de notícias</h1>
+<h1 align="center"> Projeto para apresentar o filme A viagem de Chihiro</h1>
 
 <p align="center">
 Desafio exclusivo e gratuito, promovido pela comunidade do professor Iuri Code.
