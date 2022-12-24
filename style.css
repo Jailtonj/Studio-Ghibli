@@ -76,7 +76,7 @@ a {
     text-decoration: none;
 }
 
-.assistir-agora {
+#assistir-agora {
     width: 225px;
     height: 45px;
     background-color: #658E76;
@@ -98,9 +98,34 @@ a {
     text-transform: uppercase;
 }
 
-.assista-o-trailer {
+#assista-o-trailer {
     display: none;
 }
+
+Animação dos botões
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px green inset;
+  }
 
 /* Responsividade Desktop */
 @media (min-width: 1000px) {
@@ -111,7 +136,7 @@ a {
     }
     
     main {
-        width: 1500px;
+        width: 1200px;
     }
 
     h2 {
@@ -151,23 +176,42 @@ a {
 
     .botões {
         display: flex;
+        gap: 20px;
     }
 
     .foto-kaonashi {
         order: 1;
         height: 500px;
-        margin-left: 25%;
+        margin-left: 15%;
     }
 
     .foto-kaonashi img {
         display: inline;
     }
 
-    .assista-o-trailer {
+    #assista-o-trailer {
         display: inline;
+        width: 225px;
+        height: 45px;
+        border: 2px solid #658E76;
+        background-color: #375d67;
+        color: #F9F9F9;
+        border-radius: 50px 15px;
+        padding: 0.6rem;
+        border-radius: 0.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transform: skew(-20deg);
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 180%;
+        gap: 10px;
+        text-transform: uppercase;
     }
-
-    
 }
 
 
